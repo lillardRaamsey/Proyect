@@ -1,0 +1,45 @@
+body {
+    background-image: url("../img/fondodf.png");
+    align-content: center;
+}
+
+p, h2, a {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cv {
+    font-size: 50px;
+    
+}
+
+p, h2, a {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+
+.item {
+    display: grid;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 40%;
+  }
